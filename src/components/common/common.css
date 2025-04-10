@@ -1,0 +1,74 @@
+.MuiList-root.drawer-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 30px !important;
+}
+
+
+
+.MuiTextField-root .title-input{
+    width: 95% !important;
+}
+
+
+.description-input{
+    min-height: 200px !important ;
+    width: 90% !important;
+}
+
+.select-input{
+    width: 95% !important;
+    height:  50px !important;
+}
+
+.modalbuttons{
+    margin-top: 15px;
+    justify-content: end;
+    display: flex;
+    margin-right: 20px;
+}
+
+.modal-close{
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+}
+
+.form-provider{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.errorMes{
+    color: #d32f2f;
+    border: #d32f2f;
+}
+
+.description-input.input-error{
+    border: 1px solid #d32f2f !important;
+}
+
+.status-input.input-error{
+    border: 1px solid #d32f2f !important;
+}
+
+.status-input {
+    width: 95%;
+    height: 50px;
+}
+
+@media only screen and (max-width: 480px) {
+    .status-input {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 480px){
+    .modalbuttons{
+        margin-top: 10px;
+        margin-right: 0;
+    }
+}
