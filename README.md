@@ -14,7 +14,7 @@ TaskMate is a task management application that allows users to efficiently manag
 
 **Dynamic Content Rendering**: Pages load dynamically based on navigation.
 
-###Project Structure
+### Project Structure
 
 TaskMate
 ├── src
